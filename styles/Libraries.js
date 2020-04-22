@@ -199,8 +199,8 @@ const LibsStyle = createGlobalStyle`
   .bg-blue{
     background: ${C.BLUE};
   }
-  .bg-yellow{
-    background: ${C.YELLOW};
+  .bg-orange{
+    background: ${C.ORANGE};
   }
   .bg-darkgrey{
     background: ${C.DARK_GREY};
@@ -235,8 +235,8 @@ const LibsStyle = createGlobalStyle`
     color: ${C.BLUE};
   }
 
-  .tx-yellow{
-    color: ${C.YELLOW};
+  .tx-orange{
+    color: ${C.ORANGE};
   }
 
   .tx-darkgrey{
