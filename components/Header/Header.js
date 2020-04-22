@@ -20,7 +20,6 @@ export default function header({ title, typeClass }) {
           desktop={10}
         >
           <img src="/images/logo-abinbev-brasil.png" alt={title} />
-          {/* <p className="fn-s18px fn-wb title">{title}</p> */}
         </GridStyle.Col>
         
         <GridStyle.Col
