@@ -22,7 +22,7 @@ const Tile = ({data}) => {
 
         <GridStyle.Row>
           <GridStyle.Col
-            mobile={12}
+            general={12}
             className="no-margin"
           >
             <Style.DescTile>
@@ -53,7 +53,7 @@ const Tile = ({data}) => {
 
         <GridStyle.Row>
           <GridStyle.Col
-            mobile={12}
+            general={12}
             className="no-margin"
           >
             <ItemQuantity />

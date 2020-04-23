@@ -52,6 +52,14 @@ const Index = () => {
         <GridStyle.Container>
 
           <GridStyle.Row>
+            <GridStyle.Col general={12}>
+              <p className="has-text-centered tx-orange tx-up fn-s30px fn-wb">
+                App Beertech
+              </p>
+            </GridStyle.Col>
+          </GridStyle.Row>
+
+          <GridStyle.Row>
           {setItens && setItens.length > 0 &&
             setItens.map((item, index) => (
               <GridStyle.Col
