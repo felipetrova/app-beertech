@@ -115,6 +115,15 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
+  code {
+    background-color: ${C.LIGHT_GREY};
+    border-radius: 4px;
+    font-family: 'robotolight';
+    padding: 0 4px;
+    margin: 10px 0 0;
+    display: inline-flex;
+  }
+
   ${media.greaterThan("320px")`
     .hide-xs {
       display: none !important;

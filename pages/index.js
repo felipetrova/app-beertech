@@ -9,26 +9,28 @@ import TileComponent from "~/components/Tiles/Tiles"
 
 const Index = () => {
   const [loading, setLoading] = useState(false);
-  // eslint-disable-next-line no-unused-vars
   const [setItens, setItensState] = useState([]);
+  const [errorMsg, setErrorMsg] = useState("");
 
   const loadItens = useCallback(async() => {
 
     try {
       setLoading(true);
+      setErrorMsg('');
       axios(`http://localhost:3001/itens`).then(res => {
         console.log(res);
         if(res.data !== null && res.data.length > 0) {
           setItensState(res.data);
         } else {
-          console.log('error');
+          setErrorMsg('Please, run the server with:');
         }
       })
       .catch(err => {
         console.log(err);
+        setErrorMsg('Please, run the server with:');
       });
     } catch (error) {
-      console.log(error);
+      setErrorMsg('Please, run the server with:');
     }
 
     setLoading(false);
@@ -74,6 +76,18 @@ const Index = () => {
               </GridStyle.Col>
             ))
           }
+
+          {(errorMsg || (setItens && setItens.length === 0)) && (
+            <GridStyle.Col general={12}>
+            <p className="has-text-centered tx-darkgrey fn-s20px fn-wb">
+              {errorMsg}
+              <br />
+              <code>
+                yarn server
+              </code>
+            </p>
+          </GridStyle.Col>
+          )}
           </GridStyle.Row>
 
         </GridStyle.Container>

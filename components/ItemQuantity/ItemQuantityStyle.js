@@ -18,6 +18,7 @@ export const Count = styled.div`
     color: ${C.BLUE};
     border: 1px solid ${C.BLUE};
     border-radius: 50%;
+    cursor: pointer;
 
     &.add {
       padding: 14px 10px;
