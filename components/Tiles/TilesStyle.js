@@ -15,7 +15,11 @@ export const CardTile = styled.div`
     display: block;
     margin: 0 auto;
   }
-
+`;
+  
+export const DescTile = styled.div`
+  margin-bottom: 1.875rem;
+  
   .title {
     color: ${C.BLACK};
     margin-bottom: 0.3125rem;

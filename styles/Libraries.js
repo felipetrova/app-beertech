@@ -215,9 +215,9 @@ const LibsStyle = createGlobalStyle`
     background: ${C.GREEN};
   }
 
-  .bg-red-outlined{
+  .bg-blue-outlined{
     background: ${C.WHITE};
-    border: 1px solid ${C.RED};
+    border: 1px solid ${C.BLUE};
     transition: all 0.2s ease-in-out;
 
     &:hover {
