@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/index.js.36330dd100329cdb4c1d.hot-update.js","sources":["webpack:///./components/Button/ButtonStyle.js"],"sourcesContent":["import styled from 'styled-components';\n\nexport const Button = styled.button`\n  cursor: pointer;\n`;"],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAEA;AAAA;AAAA;AAAA;;;;A","sourceRoot":""}
