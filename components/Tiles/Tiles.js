@@ -3,7 +3,7 @@ import * as Style from './TilesStyle';
 
 import ItemQuantity from "~/components/ItemQuantity/ItemQuantity"
 
-const Tile = () => {
+const Tile = ({data}) => {
 
   return (
     <>
@@ -14,7 +14,7 @@ const Tile = () => {
             className="no-margin"
           >
             <img
-              src="/images/rum.png"
+              src={data.image}
               className="imgTile"
             />
           </GridStyle.Col>
@@ -27,20 +27,20 @@ const Tile = () => {
           >
             <Style.DescTile>
               <p className="fn-wb fn-s16px title">
-                Modelo Negra
+                {data.name}
                 <br />
                 
-                <span className="fn-s14px tx-du">
-                  12 Unit - 33oz Bottle
+                <span className="fn-s14px">
+                  {data.desc1}
                 </span>
               </p>
 
               <p className="fn-wb fn-s14px price">
-                RD$32.00/Unit
+                {data.desc2}
               </p>
 
               <p className="fn-s12px details">
-                Buy 3, get 1 free.
+                {data.promo}
                 <br />
                 
                 <span className="tx-du">
