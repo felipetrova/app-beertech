@@ -1,0 +1,36 @@
+{
+  "itens": [
+    {
+      "id": 1,
+      "name": "Modelo Negra",
+      "desc1": "12 Unit - 33oz Bottle",
+      "desc2": "RD$32.00/Unit",
+      "promo": "Buy 3, get 1 free.",
+      "image": "https://qa-m1-dr.abi-sandbox.net/media/catalog/product/-/R/-R002151.png"
+    },
+    {
+      "id": 2,
+      "name": "Presidente Light",
+      "desc1": "12 Unit - 330ml Bottle",
+      "desc2": "RD$43.00/Unit",
+      "promo": "Buy 3, get 1 free Red Bull or 2 Pepsi Black.",
+      "image": "https://qa-m1-dr.abi-sandbox.net/media/catalog/product/-/R/-R002151.png"
+    },
+    {
+      "id": 3,
+      "name": "Brahma Light very very light 33 Onz - Caja [12 Botellas]",
+      "desc1": "12 Unit - 330ml Bottle",
+      "desc2": "RD$43.00/Unit",
+      "promo": "For every 5 you buy, get up to 2 free.",
+      "image": "https://qa-m1-dr.abi-sandbox.net/media/catalog/product/-/R/-R002151.png"
+    },
+    {
+      "id": 4,
+      "name": "Budweiser",
+      "desc1": "12 Unit - 33oz Bottle and extra long summary on multiple lines",
+      "desc2": "RD$26.00/Unit",
+      "promo": "For every 5 you buy, get up to 3 free Red Bull or 2 free Pepsi Black.",
+      "image": "https://qa-m1-dr.abi-sandbox.net/media/catalog/product/-/R/-R002151.png"
+    }
+  ]
+}
