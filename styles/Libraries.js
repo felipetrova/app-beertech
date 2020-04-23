@@ -221,7 +221,7 @@ const LibsStyle = createGlobalStyle`
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      background: ${C.RED};
+      background: ${C.BLUE};
       color: ${C.WHITE};
     }
   }

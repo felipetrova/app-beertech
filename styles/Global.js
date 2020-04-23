@@ -38,7 +38,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 20px 0;
   }
 
-  input:not([type=radio]),
+  input:not([type=text]),
   select,
   textarea {
     appearance: none;
